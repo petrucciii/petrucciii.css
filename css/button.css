@@ -1,49 +1,3 @@
-* {
-    margin: 0;
-}
-
-body {
-    font-family: sans-serif;
-}
-
-p {
-    margin: 0;
-}
-
-/*typography*/
-
-/*titles*/
-.h1 {
-    font-size: 33px;
-}
-
-.h2 {
-    font-size: 29px;
-}
-
-.h3 {
-    font-size: 26px;
-}
-
-.h4 {
-    font-size: 23px;
-}
-
-.h5 {
-    font-size: 20px;
-}
-
-.h6 {
-    font-size: 17px;
-}
-
-/*paragraph*/
-
-.paragraph {
-    
-}
-
-/*buttons*/
 .btn {
     text-decoration: none;
     border-radius: 10px;
@@ -297,4 +251,3 @@ p {
 .btn-white:focus {
     border: 2px solid #f1f1f1;
 }
-
