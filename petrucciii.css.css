@@ -1,0 +1,250 @@
+body {
+    font-family: sans-serif;
+}
+
+/*buttons*/
+.btn {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*style*/
+.btn-outline {
+    background-color: white;
+}
+
+/*size*/
+.btn-sm {
+    padding: 10px;
+}
+
+.btn-md {
+    padding: 15px;
+}
+
+.btn-lg {
+    padding: 20px;
+}
+
+.btn-xl {
+    padding: 25px;
+}
+
+/*colors*/
+
+/*outline buttons*/
+.btn-outline-red {
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;  
+}
+
+.btn-outline-red:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-outline-red:focus {
+    border: 3px solid rgb(255, 150, 150);
+}
+
+.btn-outline-yellow {
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;  
+}
+
+.btn-outline-yellow:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn-outline-yellow:focus {
+    border: 3px solid rgb(255, 255, 184);
+}
+
+.btn-outline-blue {
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;  
+}
+
+.btn-outline-blue:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-outline-blue:focus {
+    border: 3px solid rgb(150, 160, 255);
+}
+
+.btn-outline-green {
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;  
+}
+
+.btn-outline-green:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn-outline-green:focus {
+    border: 3px solid rgb(173, 248, 173);
+}
+
+.btn-outline-orange {
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;  
+}
+
+.btn-outline-orange:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.btn-outline-orange:focus {
+    border: 3px solid rgb(250, 159, 126);
+}
+
+.btn-outline-gray {
+    color: #404040;
+    border: 2px solid #404040;
+    border-radius: 10px;  
+}
+
+.btn-outline-gray:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.btn-outline-gray:focus {
+    border: 3px solid #b6b6b6;
+}
+
+.btn-outline-white {
+    color: rgb(90, 90, 90);
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;  
+}
+
+.btn-outline-white:hover {
+    background-color: #dbdbdb;
+    color: white;
+}
+
+.btn-outline-white:focus {
+    border: 3px solid #f1f1f1;
+}
+
+/*normal buttons*/
+.btn-red {
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.btn-red:hover {
+    background-color: rgb(182, 17, 17);
+    border: 2px solid rgb(182, 17, 17);
+    color: white;
+}
+
+.btn-red:focus {
+    border: 3px solid rgb(255, 150, 150);
+}
+
+.btn-yellow {
+    color: #777777;
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;  
+}
+
+.btn-yellow:hover {
+    background-color: rgb(240, 240, 0);
+    border: 2px solid rgb(240, 240, 0);
+    color: #777777;
+}
+
+.btn-yellow:focus {
+    border: 3px solid rgb(255, 255, 184);
+}
+
+.btn-blue {
+    color: white;
+    border: 2px solid #0d6efd;
+    border-radius: 10px;  
+}
+
+.btn-blue:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-blue:focus {
+    border: 3px solid rgb(150, 160, 255);
+}
+
+.btn-green {
+    color: white;
+    border: 2px solid green;
+    border-radius: 10px;  
+}
+
+.btn-green:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn-green:focus {
+    border: 3px solid rgb(173, 248, 173);
+}
+
+.btn-orange {
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;  
+}
+
+.btn-orange:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.btn-orange:focus {
+    border: 3px solid rgb(250, 159, 126);
+}
+
+.btn-gray {
+    color: white;
+    border: 2px solid #404040;
+    border-radius: 10px;  
+}
+
+.btn-gray:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.btn-gray:focus {
+    border: 3px solid #b6b6b6;
+}
+
+.btn-white {
+    color: rgb(90, 90, 90);
+    border: 2px solid #dbdbdb;
+    border-radius: 10px;
+    background-color: #dbdbdb; 
+}
+
+.btn-white:hover {
+    background-color: #cecece;
+}
+
+.btn-white:focus {
+    border: 3px solid #f1f1f1;
+}
