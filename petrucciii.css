@@ -2,6 +2,11 @@ body {
     font-family: sans-serif;
 }
 
+/*typography*/
+.h1 {
+    font-size: larger;
+}
+
 /*buttons*/
 .btn {
     text-decoration: none;
@@ -46,7 +51,7 @@ body {
 }
 
 .btn-outline-red:focus {
-    border: 3px solid rgb(255, 150, 150);
+    border: 2px solid rgb(255, 150, 150);
 }
 
 .btn-outline-yellow {
@@ -61,7 +66,7 @@ body {
 }
 
 .btn-outline-yellow:focus {
-    border: 3px solid rgb(255, 255, 184);
+    border: 2px solid rgb(255, 255, 184);
 }
 
 .btn-outline-blue {
@@ -76,7 +81,7 @@ body {
 }
 
 .btn-outline-blue:focus {
-    border: 3px solid rgb(150, 160, 255);
+    border: 2px solid rgb(150, 160, 255);
 }
 
 .btn-outline-green {
@@ -91,7 +96,7 @@ body {
 }
 
 .btn-outline-green:focus {
-    border: 3px solid rgb(173, 248, 173);
+    border: 2px solid rgb(172, 248, 172);
 }
 
 .btn-outline-orange {
@@ -106,7 +111,7 @@ body {
 }
 
 .btn-outline-orange:focus {
-    border: 3px solid rgb(250, 159, 126);
+    border: 2px solid rgb(250, 159, 126);
 }
 
 .btn-outline-gray {
@@ -121,12 +126,12 @@ body {
 }
 
 .btn-outline-gray:focus {
-    border: 3px solid #b6b6b6;
+    border: 2px solid #b6b6b6;
 }
 
 .btn-outline-white {
     color: rgb(90, 90, 90);
-    border: 2px solid #dbdbdb;
+    border: 2px solid #f5f5f5;
     border-radius: 10px;  
 }
 
@@ -136,7 +141,7 @@ body {
 }
 
 .btn-outline-white:focus {
-    border: 3px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
 }
 
 /*normal buttons*/
@@ -154,7 +159,7 @@ body {
 }
 
 .btn-red:focus {
-    border: 3px solid rgb(255, 150, 150);
+    border: 2px solid rgb(255, 150, 150);
 }
 
 .btn-yellow {
@@ -171,80 +176,89 @@ body {
 }
 
 .btn-yellow:focus {
-    border: 3px solid rgb(255, 255, 184);
+    border: 2px solid rgb(255, 255, 184);
 }
 
 .btn-blue {
     color: white;
     border: 2px solid #0d6efd;
+    background-color: #0d6efd;
     border-radius: 10px;  
 }
 
 .btn-blue:hover {
-    background-color: #0d6efd;
+    background-color: #0761e7;
+    border: 2px solid #0761e7;
     color: white;
 }
 
 .btn-blue:focus {
-    border: 3px solid rgb(150, 160, 255);
+    border: 2px solid rgb(129, 140, 233);
 }
 
 .btn-green {
     color: white;
     border: 2px solid green;
+    background-color: green;
     border-radius: 10px;  
 }
 
 .btn-green:hover {
-    background-color: green;
+    background-color: rgb(7, 109, 7);
+    border: 2px solid rgb(7, 109, 7);
     color: white;
 }
 
 .btn-green:focus {
-    border: 3px solid rgb(173, 248, 173);
+    border: 2px solid rgb(172, 248, 172);
 }
 
 .btn-orange {
     color: white;
     border: 2px solid orangered;
+    background-color: orangered;
     border-radius: 10px;  
 }
 
 .btn-orange:hover {
-    background-color: orangered;
+    background-color: rgb(219, 67, 11);
+    border: 2px solid rgb(219, 67, 11);
     color: white;
 }
 
 .btn-orange:focus {
-    border: 3px solid rgb(250, 159, 126);
+    border: 2px solid rgb(250, 159, 126);
 }
 
 .btn-gray {
     color: white;
     border: 2px solid #404040;
+    background-color: #404040;
     border-radius: 10px;  
 }
 
 .btn-gray:hover {
-    background-color: #404040;
+    background-color: #333232;
+    border: 2px solid #333232;
     color: white;
 }
 
 .btn-gray:focus {
-    border: 3px solid #b6b6b6;
+    border: 2px solid #b6b6b6;
 }
 
 .btn-white {
     color: rgb(90, 90, 90);
-    border: 2px solid #dbdbdb;
+    border: 2px solid #f5f5f5;
     border-radius: 10px;
-    background-color: #dbdbdb; 
+    background-color: #f5f5f5; 
 }
 
 .btn-white:hover {
-    background-color: #cecece;
+    background-color: #dfdfdf;
 }
 
 .btn-white:focus {
-    border: 3px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
 }
+
