@@ -870,3 +870,11 @@ p {
 .text-end {
     text-align: end;
 }
+/*visibility*/
+.visible {
+    visibility: visible !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}
