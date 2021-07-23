@@ -1,0 +1,65 @@
+/*colors*/
+.c-red {
+    color: red;
+}
+
+.c-yellow {
+    color: yellow;
+}
+
+.c-blue {
+    color: #0d6efd;
+}
+
+.c-green {
+    color: green;
+}
+
+.c-orange {
+    color: orangered;
+}
+
+.c-gray {
+    color: #404040;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+/*background colors*/
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-blue {
+    background-color: #0d6efd;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orangered;
+}
+
+.bg-gray {
+    background-color: #404040;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
