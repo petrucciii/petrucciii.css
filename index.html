@@ -13,31 +13,45 @@
     <link rel="stylesheet" href="css/position.css">
     <link rel="stylesheet" href="css/alignment.css">
     <link rel="stylesheet" href="css/visibility.css">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>petrucciii.css</title>
 </head>
 <body>
-    <h1 class="p-fixed">petrucci.css</h1>
+    <nav class="nav nav-dark nav-fixed">
+        <p class="h3 nav-item nav-title" style="color: yellow;">petrucci.css</p>
+        <i class="fa fa-bars fs-xl nav-item nav-hamburger"></i>
+        <a href="#buttons" class="nav-item nav-link c-white paragraph ml-1">buttons</a>
+        <a href="#containers" class="nav-item nav-link c-white paragraph ml-1">containers</a>
+        <a href="#spacing" class="nav-item nav-link c-white paragraph ml-1">spacing</a>
+        <a href="#sizing" class="nav-item nav-link c-white paragraph ml-1">sizing</a>
+        <a href="#colors" class="nav-item nav-link c-white paragraph ml-1">colors</a>
+        <a href="#typography" class="nav-item nav-link c-white paragraph ml-1">typography</a>
+        <a href="#display" class="nav-item nav-link c-white paragraph ml-1">display</a>
+    </nav>
+    <br id="buttons"><br>
     <br><br>
     <p class="h2">buttons</p>
     <br>
-    <button class="btn btn-outline btn-md btn-outline-red" href="#">Medium Red Outline Button</button>
-    <button class="btn btn-outline btn-xl btn-outline-yellow" href="#">Extra Large Yellow Outline Button</button>
-    <button class="btn btn-outline btn-sm btn-outline-blue" href="#">Small Blue Outline Button</button>
-    <button class="btn btn-outline btn-lg btn-outline-green" href="#">Large Green Outline Button</button>
-    <button class="btn btn-outline btn-outline-orange" href="#">Orange Outline Button</button>
-    <button class="btn btn-outline btn-outline-gray" href="#">Gray Outline Button</button>
-    <button class="btn btn-outline btn-outline-white" href="#">White Outline Button</button>
+    <button class="btn btn-outline btn-md btn-outline-red">Medium Red Outline Button</button>
+    <button class="btn btn-outline btn-xl btn-outline-yellow">Extra Large Yellow Outline Button</button>
+    <button class="btn btn-outline btn-sm btn-outline-blue">Small Blue Outline Button</button>
+    <button class="btn btn-outline btn-lg btn-outline-green">Large Green Outline Button</button>
+    <button class="btn btn-outline btn-outline-orange">Orange Outline Button</button>
+    <button class="btn btn-outline btn-outline-gray">Gray Outline Button</button>
+    <button class="btn btn-outline btn-outline-white">White Outline Button</button>
     <br><br>
-    <button class="btn btn-md btn-red" href="#">Medium Red Button</button>
-    <button class="btn btn-xl btn-yellow" href="#">Extra Large Yellow Button</button>
-    <button class="btn btn-sm btn-blue" href="#">Small Blue Button</button>
-    <button class="btn btn-lg btn-green" href="#">Large Button</button>
-    <button class="btn btn-orange" href="#">Orange Button</button>
-    <button class="btn btn-gray" href="#">Gray Button</button>
-    <button class="btn btn-white" href="#">White Button</button>
-    <br>
+    <button class="btn btn-md btn-red">Medium Red Button</button>
+    <button class="btn btn-xl btn-yellow">Extra Large Yellow Button</button>
+    <button class="btn btn-sm btn-blue">Small Blue Button</button>
+    <button class="btn btn-lg btn-green">Large Button</button>
+    <button class="btn btn-orange">Orange Button</button>
+    <button class="btn btn-gray">Gray Button</button>
+    <button class="btn btn-white">White Button</button>
+    <br id="typography"><br id="spacing"><br> 
     <p class="h2">typography and spacing</p>
     <p class="h1">header 1</p>
     <p class="h2">header 2</p>
@@ -46,19 +60,22 @@
     <p class="h5">header 5</p>
     <p class="h6">header 6</p>
     <p class="paragraph ml-5">This is a paragraph with a margin left of 50px</p>
-    <br>
-    <p class="h2">containers, spacing, sizing and colors</p>
+    <br id="containers"><br id="sizing"><br id="colors">
+    <p class="h2">containers, sizing and colors</p>
     <p class="container paragraph mt-7 mb-3">This is a small container with a margin top of 70px and a margin bottom of 30px Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus enim debitis libero doloremque recusandae, optio quis cumque est consequuntur quo magni voluptatibus. Ipsam corrupti labore, ducimus culpa alias laudantium harum.</p>
     <p class="container-md paragraph">This is a medium container Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, impedit debitis sequi aut sunt expedita officia veritatis iure ex, quas quod sint voluptas tenetur consequuntur. Minus modi quis sed assumenda?</p>
     <p class="container-lg paragraph">This is a large container Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum eaque dolor nisi veritatis tempore explicabo ratione nesciunt alias quas rerum saepe in, magnam odit illo maiores quis incidunt odio adipisci!</p>
     <p class="container-xl paragraph">This is a extra large container Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error deserunt ex nesciunt repudiandae beatae obcaecati dolore voluptate harum optio totam vitae similique velit nihil ipsum odio, repellat repellendus accusantium.</p>
     <br>
     <p class="p-2 w-75 paragraph bg-gray c-yellow">This is a paragraph with a padding of 20px, a width of 75%, a gray background color and a yellow color</p>
-    <br>
+    <br id="display">
     <p class="h2">display</p>
     <p class="h4">inline block</p>
-    <p class="paragraph d-iblock">item 1</p>
-    <p class="paragraph d-iblock">item 2</p>
-    <p class="paragraph d-iblock">item 3</p>
+    <p class="paragraph d-iblock f-couriernew">item 1</p>
+    <p class="paragraph d-iblock f-segoeui">item 2</p>
+    <p class="paragraph d-iblock f-fankilngothicmedium">item 3</p>
+    <p class="paragraph d-iblock f-gillsans">item 4</p>
+    <p class="paragraph d-iblock f-lucidasans">item 5</p>
+    <p class="paragraph d-iblock f-times">item 6</p>
 </body>
 </html>

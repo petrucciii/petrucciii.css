@@ -1,0 +1,50 @@
+.nav {
+    padding: 20px;
+}
+
+.nav-dark {
+    background-color: #404040;
+    color: white;
+}
+
+.nav-light {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-hamburger {
+    display: none !important;
+    margin-left: 90%;
+    margin-right: 28%;
+    margin-top: -23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-link {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-hamburger {
+        margin-left: 80%;
+    }
+}

@@ -1,3 +1,11 @@
+/*
+//petrucciii.css by petrucci
+//
+//https://github.com/petrucciii/petrucciii.css
+//
+//last update 24/07/2021
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
 
 * {
@@ -847,29 +855,30 @@ p {
 
 /*position*/
 .p-fixed {
-    position: fixed;
+    position: fixed !important;
 }
 
 .p-absolute {
-    position: absolute;
+    position: absolute !important;
 }
 
 .p-relative {
-    position: relative;
+    position: relative !important;
 }
 
 /*alignment*/
 .text-start {
-    text-align: start;
+    text-align: start !important;
 }
 
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .text-end {
-    text-align: end;
+    text-align: end !important;
 }
+
 /*visibility*/
 .visible {
     visibility: visible !important;
@@ -877,4 +886,120 @@ p {
 
 .invisible {
     visibility: hidden !important;
+}
+
+/*font*/
+/*size*/
+.fs-xs {
+    font-size: 10px;
+}
+
+.fs-sm {
+    font-size: 15px;
+}
+
+.fs-md {
+    font-size: 20px;
+}
+
+.fs-lg {
+    font-size: 25px;
+}
+
+.fs-xl {
+    font-size: 30px;
+}
+
+/*weight*/
+.fw-xs {
+    font-weight: 100;
+}
+
+.fw-xs {
+    font-weight: 300;
+}
+
+.fw-xs {
+    font-weight: 500;
+}
+
+.fw-xl {
+    font-weight: 800;
+}
+
+/*families*/
+.f-couriernew {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.f-segoeui {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.f-fankilngothicmedium {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.f-gillsans {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.f-lucidasans {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.f-times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*nav*/
+.nav {
+    padding: 20px !important;
+}
+
+.nav-dark {
+    background-color: #404040 !important;
+    color: white !important;
+}
+
+.nav-light {
+    background-color: rgb(238, 238, 238);
+    color: black !important;
+}
+
+.nav-item {
+    display: inline-block !important;
+}
+
+.nav-link {
+    text-decoration: none !important;
+}
+
+.nav-fixed {
+    position: fixed !important;
+    width: 100% !important;
+}
+
+.nav-hamburger {
+    display: none !important;
+    margin-left: 90% !important;
+    margin-right: 28% !important;
+    margin-top: -23px !important;
+    cursor: pointer !important;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-link {
+        display: none !important;
+    }
+
+    .nav-hamburger {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-hamburger {
+        margin-left: 80% !important;
+    }
 }
