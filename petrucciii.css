@@ -15,39 +15,39 @@ p {
 /*typography*/
 /*titles*/
 .h1 {
-    font-size: 33px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 33px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .h2 {
-    font-size: 29px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 29px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .h3 {
-    font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 26px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .h4 {
-    font-size: 23px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 23px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .h5 {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .h6 {
-    font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 17px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 /*paragraph*/
 .paragraph {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 18px !important;
 }
 
 /*sizing*/
@@ -491,38 +491,38 @@ p {
 
 /*container*/
 .container {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .container-sm {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .container-md {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .container-lg {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .container-xl {
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 11% !important;
+    margin-right: 11% !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 /*colors*/
@@ -593,256 +593,256 @@ p {
 
 /*button*/
 .btn {
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 15px;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
 }
 
 /*style*/
 .btn-outline {
-    background-color: white;
+    background-color: white !important;
 }
 
 /*size*/
 .btn-sm {
-    padding: 10px;
+    padding: 10px !important;
 }
 
 .btn-md {
-    padding: 15px;
+    padding: 15px !important;
 }
 
 .btn-lg {
-    padding: 20px;
+    padding: 20px !important;
 }
 
 .btn-xl {
-    padding: 25px;
+    padding: 25px !important;
 }
 
 /*colors*/
 /*outline buttons*/
 .btn-outline-red {
-    color: red;
-    border: 2px solid red;
-    border-radius: 10px;  
+    color: red !important;
+    border: 2px solid red !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-red:hover {
-    background-color: red;
-    color: white;
+    background-color: red !important;
+    color: white !important;
 }
 
 .btn-outline-red:focus {
-    border: 2px solid rgb(255, 150, 150);
+    border: 2px solid rgb(255, 150, 150) !important;
 }
 
 .btn-outline-yellow {
-    color: yellow;
-    border: 2px solid yellow;
-    border-radius: 10px;  
+    color: yellow !important;
+    border: 2px solid yellow !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-yellow:hover {
-    background-color: yellow;
-    color: black;
+    background-color: yellow !important;
+    color: black !important;
 }
 
 .btn-outline-yellow:focus {
-    border: 2px solid rgb(255, 255, 184);
+    border: 2px solid rgb(255, 255, 184) !important;
 }
 
 .btn-outline-blue {
-    color: #0d6efd;
-    border: 2px solid #0d6efd;
-    border-radius: 10px;  
+    color: #0d6efd !important;
+    border: 2px solid #0d6efd !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-blue:hover {
-    background-color: #0d6efd;
-    color: white;
+    background-color: #0d6efd !important;
+    color: white !important;
 }
 
 .btn-outline-blue:focus {
-    border: 2px solid rgb(150, 160, 255);
+    border: 2px solid rgb(150, 160, 255) !important;
 }
 
 .btn-outline-green {
-    color: green;
-    border: 2px solid green;
-    border-radius: 10px;  
+    color: green !important;
+    border: 2px solid green !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-green:hover {
-    background-color: green;
-    color: white;
+    background-color: green !important;
+    color: white !important;
 }
 
 .btn-outline-green:focus {
-    border: 2px solid rgb(172, 248, 172);
+    border: 2px solid rgb(172, 248, 172) !important;
 }
 
 .btn-outline-orange {
-    color: orangered;
-    border: 2px solid orangered;
-    border-radius: 10px;  
+    color: orangered !important;
+    border: 2px solid orangered !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-orange:hover {
-    background-color: orangered;
-    color: white;
+    background-color: orangered !important;
+    color: white !important;
 }
 
 .btn-outline-orange:focus {
-    border: 2px solid rgb(250, 159, 126);
+    border: 2px solid rgb(250, 159, 126) !important;
 }
 
 .btn-outline-gray {
-    color: #404040;
-    border: 2px solid #404040;
-    border-radius: 10px;  
+    color: #404040 !important;
+    border: 2px solid #404040 !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-gray:hover {
-    background-color: #404040;
-    color: white;
+    background-color: #404040 !important;
+    color: white !important;
 }
 
 .btn-outline-gray:focus {
-    border: 2px solid #b6b6b6;
+    border: 2px solid #b6b6b6 !important;
 }
 
 .btn-outline-white {
-    color: rgb(90, 90, 90);
-    border: 2px solid #f5f5f5;
-    border-radius: 10px;  
+    color: rgb(90, 90, 90) !important;
+    border: 2px solid #f5f5f5 !important;
+    border-radius: 10px !important;  
 }
 
 .btn-outline-white:hover {
-    background-color: #dbdbdb;
-    color: white;
+    background-color: #dbdbdb !important;
+    color: white !important;
 }
 
 .btn-outline-white:focus {
-    border: 2px solid #f1f1f1;
+    border: 2px solid #f1f1f1 !important;
 }
 
 /*normal buttons*/
 .btn-red {
-    color: white;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color: red;
+    color: white !important;
+    border: 2px solid red !important;
+    border-radius: 10px !important;
+    background-color: red !important;
 }
 
 .btn-red:hover {
-    background-color: rgb(182, 17, 17);
-    border: 2px solid rgb(182, 17, 17);
-    color: white;
+    background-color: rgb(182, 17, 17) !important;
+    border: 2px solid rgb(182, 17, 17) !important;
+    color: white !important;
 }
 
 .btn-red:focus {
-    border: 2px solid rgb(255, 150, 150);
+    border: 2px solid rgb(255, 150, 150) !important;
 }
 
 .btn-yellow {
-    color: #777777;
-    border: 2px solid yellow;
-    background-color: yellow;
-    border-radius: 10px;  
+    color: #777777 !important;
+    border: 2px solid yellow !important;
+    background-color: yellow !important;
+    border-radius: 10px !important;  
 }
 
 .btn-yellow:hover {
-    background-color: rgb(240, 240, 0);
-    border: 2px solid rgb(240, 240, 0);
-    color: #777777;
+    background-color: rgb(240, 240, 0) !important;
+    border: 2px solid rgb(240, 240, 0) !important;
+    color: #777777 !important;
 }
 
 .btn-yellow:focus {
-    border: 2px solid rgb(255, 255, 184);
+    border: 2px solid rgb(255, 255, 184) !important;
 }
 
 .btn-blue {
     color: white;
-    border: 2px solid #0d6efd;
-    background-color: #0d6efd;
+    border: 2px solid #0d6efd !important;
+    background-color: #0d6efd !important;
     border-radius: 10px;  
 }
 
 .btn-blue:hover {
-    background-color: #0761e7;
-    border: 2px solid #0761e7;
-    color: white;
+    background-color: #0761e7 !important;
+    border: 2px solid #0761e7 !important;
+    color: white !important;
 }
 
 .btn-blue:focus {
-    border: 2px solid rgb(129, 140, 233);
+    border: 2px solid rgb(129, 140, 233) !important;
 }
 
 .btn-green {
-    color: white;
-    border: 2px solid green;
-    background-color: green;
-    border-radius: 10px;  
+    color: white !important;
+    border: 2px solid green !important;
+    background-color: green !important;
+    border-radius: 10px !important;  
 }
 
 .btn-green:hover {
-    background-color: rgb(7, 109, 7);
-    border: 2px solid rgb(7, 109, 7);
-    color: white;
+    background-color: rgb(7, 109, 7) !important;
+    border: 2px solid rgb(7, 109, 7) !important;
+    color: white !important;
 }
 
 .btn-green:focus {
-    border: 2px solid rgb(172, 248, 172);
+    border: 2px solid rgb(172, 248, 172) !important;
 }
 
 .btn-orange {
-    color: white;
-    border: 2px solid orangered;
-    background-color: orangered;
-    border-radius: 10px;  
+    color: white !important;
+    border: 2px solid orangered !important;
+    background-color: orangered !important;
+    border-radius: 10px !important;  
 }
 
 .btn-orange:hover {
-    background-color: rgb(219, 67, 11);
-    border: 2px solid rgb(219, 67, 11);
-    color: white;
+    background-color: rgb(219, 67, 11) !important;
+    border: 2px solid rgb(219, 67, 11) !important ;
+    color: white !important;
 }
 
 .btn-orange:focus {
-    border: 2px solid rgb(250, 159, 126);
+    border: 2px solid rgb(250, 159, 126) !important;
 }
 
 .btn-gray {
-    color: white;
-    border: 2px solid #404040;
-    background-color: #404040;
-    border-radius: 10px;  
+    color: white !important;
+    border: 2px solid #404040 !important;
+    background-color: #404040 !important;
+    border-radius: 10px !important;  
 }
 
 .btn-gray:hover {
-    background-color: #333232;
-    border: 2px solid #333232;
-    color: white;
+    background-color: #333232 !important;
+    border: 2px solid #333232 !important;
+    color: white !important;
 }
 
 .btn-gray:focus {
-    border: 2px solid #b6b6b6;
+    border: 2px solid #b6b6b6 !important;
 }
 
 .btn-white {
-    color: rgb(90, 90, 90);
-    border: 2px solid #f5f5f5;
-    border-radius: 10px;
-    background-color: #f5f5f5; 
+    color: rgb(90, 90, 90) !important;
+    border: 2px solid #f5f5f5 !important;
+    border-radius: 10px !important;
+    background-color: #f5f5f5 !important; 
 }
 
 .btn-white:hover {
-    background-color: #dfdfdf;
+    background-color: #dfdfdf !important;
 }
 
 .btn-white:focus {
-    border: 2px solid #f1f1f1;
+    border: 2px solid #f1f1f1 !important;
 }
 
 /*position*/
