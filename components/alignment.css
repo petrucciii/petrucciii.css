@@ -9,3 +9,18 @@
 .text-end {
     text-align: end;
 }
+
+.start {
+    display: flex;
+    justify-self: start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}

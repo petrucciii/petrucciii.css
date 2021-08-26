@@ -879,6 +879,21 @@ p {
     text-align: end !important;
 }
 
+.start {
+    display: flex;
+    justify-self: start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
 /*visibility*/
 .visible {
     visibility: visible !important;
